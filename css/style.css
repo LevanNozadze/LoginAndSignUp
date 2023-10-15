@@ -39,11 +39,13 @@ p {
 header {
     display: flex;
     justify-content: center;
+}
+
+.logo-c {
     width: 113px;
     height: 111px;
     flex-shrink: 0;
 }
-
 
 main {
     display: flex;
