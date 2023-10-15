@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    width: 326px;
+    height: 23px;
+    flex-shrink: 0;
+
+    color: rgba(0, 0, 0, 0.78);
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 64px 0px 12px 0px;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.32);
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 113px;
+    height: 111px;
+    flex-shrink: 0;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-lable {
+    display: flex;
+    justify-content: center;
+}
+
+.input-label {
+    display: flex;
+    width: 317px;
+    height: 57px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 31px;
+    border-radius: 10px;
+
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-width: 1px;
+}
+
+.input-label::placeholder {
+    color: rgba(0, 0, 0, 1);
+}
+
+.submit {
+    width: 315px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    margin: 44px 0px 36px 0px;
+    background-color: rgba(13, 32, 99, 1);
+
+    color: rgba(255, 255, 255, 1);
+
+    text-align: center;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.forget-password {
+    text-align: center;
+
+}
+
+.forget-password a {
+    color: rgba(17, 14, 14, 0.60);
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.icons-box {
+    display: flex;
+    justify-content: center;
+    margin: 52px 0px 43px 0px;
+}
+
+.img-icon {
+    margin-right: 30px;
+}
+
+.sing-up {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.long-line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.long-line {
+    width: 115.006px;
+}
+
+.or {
+    margin: 0px 4px;
+    color: rgba(17, 14, 14, 0.60);
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
